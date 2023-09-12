@@ -31,6 +31,32 @@ body{
   background: linear-gradient(#0000008c, #0000008c), url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2670050crop.jpg?w=1900&h=1267');
   background-size: cover;
   overflow-x: hidden;
+  animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+    filter: blur(20px);
+  }
+  15%{
+    opacity: 1;
+    filter: brightness(2) blur(10px);
+  }
+}
+
+@keyframes fadeInTest{
+  15%{
+    opacity: 0;
+    filter: blur(20px);
+  }
+  30%{
+    filter: brightness(2) blur(10px);
+  }
+  50%{
+    opacity: 1;
+    filter: brightness(1.5) (5px);
+  }
 }
 
 .contenido{
