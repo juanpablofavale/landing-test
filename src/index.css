@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light dark;
+  color: #ffffffde;
+  background-color: #242424;
+}
+
+.my-atropos {
+  border-radius: 50%;
+  padding: 20px;
+  width: 600px;
+  height: 360px;
+  border-radius: 3rem;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body{
+  background: linear-gradient(#0000008c, #0000008c), url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2670050crop.jpg?w=1900&h=1267');
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.contenido{
+  padding: 50px;
+}
+
+.logoppal{
+  border-radius: 11px;
+}
+
+.contenido h1{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.atropos-inner{
+  border: 1px solid rgba(255, 255, 255, 0.17);
+  border-radius: 50%;
+  box-shadow: 0 0 100px black, 0 0 100px black;
+  background-color: #060054c7;
+  transition: .5s;
+}
+
+.atropos-inner:hover{
+  box-shadow: 0px 0px 70px #000000be, 0px 0px 70px #000000be, 0px 0px 70px #000000be, 0px 0px 70px #000000be, 0px 0px 70px #000000be;
+  background-color: #060054d9;
+  transform: scale(1.1);
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  padding: 30px;
+}
+
+footer nav a{
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+footer nav{
+  display: flex;
+  gap: 20px;
+}
+
+footer a{
+  transition: .4s;
+}
+
+footer .face:hover{
+  color: #2323ff;
+}
+
+footer .insta:hover{
+  color: #e825e8;
+}
+
+footer .twit:hover{
+  color: cyan;
+}
+
+@media screen and (max-width: 600px){
+  #app, .atropos{
+    width: 280px !important;
+  }
+  .logoppal{
+    width: 180px;
+  }
+  .contenido{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body{
+    background-position: center;
+  }
+  footer .face{
+    color: #2323ff;
+  }
+  
+  footer .insta{
+    color: #e825e8;
+  }
+  
+  footer .twit{
+    color: cyan;
+  }}
