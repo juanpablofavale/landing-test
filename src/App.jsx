@@ -3,6 +3,8 @@ import Atropos from 'atropos/react';
 import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
 import {RiTwitterXFill, RiFacebookBoxLine, RiInstagramLine} from "react-icons/ri"
 import { FaSquareXTwitter, FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6";
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function App () {
   return (
@@ -23,9 +25,9 @@ export default function App () {
       </Atropos>
       <footer>
         <nav>
-          <a className='face' target='_blank' href="http://www.facebook.com"><FaSquareFacebook /></a>
-          <a className='insta' target='_blank' href="http://www.instagram.com"><FaSquareInstagram /></a>
-          <a className='twit' target='_blank' href="http://www.twitter.com"><FaSquareXTwitter /></a>
+          <p className='face' onClick={() => toast.dark("Proximamente!")}><FaSquareFacebook /></p>
+          <p className='insta' onClick={() => toast.dark("Proximamente!")}><FaSquareInstagram /></p>
+          <p className='twit' onClick={() => toast.dark("Proximamente!")}><FaSquareXTwitter /></p>
         </nav>
       </footer>
     </div>  )

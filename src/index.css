@@ -95,10 +95,11 @@ footer{
   padding: 30px;
 }
 
-footer nav a{
+footer nav p{
   font-size: 50px;
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 
 footer nav{
@@ -106,12 +107,12 @@ footer nav{
   gap: 20px;
 }
 
-footer a{
+footer p{
   transition: .4s;
 }
 
 footer .face:hover{
-  color: #2323ff;
+  color: #0000bf;
 }
 
 footer .insta:hover{
@@ -119,7 +120,11 @@ footer .insta:hover{
 }
 
 footer .twit:hover{
-  color: cyan;
+  color: black;
+}
+
+.Toastify__progress-bar{
+  background-color: #ff4d00;
 }
 
 @media screen and (max-width: 600px){
