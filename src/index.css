@@ -58,11 +58,11 @@ body{
 }
 
 .contenido{
-  padding: 50px;
-}
-
-.logoppal{
-  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .contenido h1{

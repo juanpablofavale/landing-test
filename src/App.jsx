@@ -16,7 +16,7 @@ export default function App () {
         onRotate={(x, y) => console.log('Rotate', x, y)}
       >
         <div className="contenido">
-          <img className='logoppal' src="./Logo.png" alt="nomada img" />
+          <img className='logoppal' src="./Logo2.png" alt="nomada img" />
           <h1>Proximamente...</h1>
         </div>
         {/* ... */}
