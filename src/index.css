@@ -73,7 +73,7 @@ body{
 
 .atropos-inner{
   box-shadow: 0 0 100px black, 0 0 100px black;
-  background: url("./fondo.avif");
+  background: url("../fondo.avif");
   background-size: 100%;
   transition: .5s;
 }
