@@ -17,7 +17,7 @@ export default function App () {
         onLeave={() => console.log('Leave')}
         onRotate={(x, y) => console.log('Rotate', x, y)}
       >
-        <div className="contenido">
+        <div data-atropos-offset="5" className="contenido">
           <img className='logoppal' src="./Logo3.png" alt="nomada img" />
           <h1>Proximamente...</h1>
         </div>
