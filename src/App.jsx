@@ -1,6 +1,8 @@
 import './App.css'
 import Atropos from 'atropos/react';
 import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
+import {RiTwitterXFill, RiFacebookBoxLine, RiInstagramLine} from "react-icons/ri"
+import { FaSquareXTwitter, FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6";
 
 export default function App () {
   return (
@@ -14,16 +16,16 @@ export default function App () {
         onRotate={(x, y) => console.log('Rotate', x, y)}
       >
         <div className="contenido">
-          <img className='logoppal' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSDebnVp2ZY1mgA5KfuKMs-vqU3lTegd7CGroS2Kyfq4yIf5g8T7l1AL4htgMVlHsegA&usqp=CAU" alt="nomada img" />
-          <h1>Coming Soon...</h1>
+          <img className='logoppal' src="./Logo.png" alt="nomada img" />
+          <h1>Proximamente...</h1>
         </div>
         {/* ... */}
       </Atropos>
       <footer>
         <nav>
-          <a className='face' target='_blank' href="http://www.facebook.com"><CiFacebook /></a>
-          <a className='insta' target='_blank' href="http://www.instagram.com"><CiInstagram /></a>
-          <a className='twit' target='_blank' href="http://www.twitter.com"><CiTwitter /></a>
+          <a className='face' target='_blank' href="http://www.facebook.com"><FaSquareFacebook /></a>
+          <a className='insta' target='_blank' href="http://www.instagram.com"><FaSquareInstagram /></a>
+          <a className='twit' target='_blank' href="http://www.twitter.com"><FaSquareXTwitter /></a>
         </nav>
       </footer>
     </div>  )

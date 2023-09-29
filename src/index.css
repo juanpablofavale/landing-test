@@ -8,16 +8,14 @@
 
 :root {
   color-scheme: light dark;
-  color: #ffffffde;
+  color: black;
   background-color: #242424;
 }
 
 .my-atropos {
-  border-radius: 50%;
   padding: 20px;
-  width: 600px;
-  height: 360px;
-  border-radius: 3rem;
+  width: 400px;
+  height: 260px;
 }
 
 #root{
@@ -31,7 +29,7 @@ body{
   background: linear-gradient(#0000008c, #0000008c), url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2670050crop.jpg?w=1900&h=1267');
   background-size: cover;
   overflow-x: hidden;
-  animation: fadeIn 2s ease;
+  animation: fadeIn 1.5s ease;
 }
 
 @keyframes fadeIn{
@@ -74,10 +72,9 @@ body{
 }
 
 .atropos-inner{
-  border: 1px solid rgba(255, 255, 255, 0.17);
-  border-radius: 50%;
   box-shadow: 0 0 100px black, 0 0 100px black;
-  background-color: #060054c7;
+  background: url("./fondo.avif");
+  background-size: 100%;
   transition: .5s;
 }
 
@@ -126,19 +123,6 @@ footer .twit:hover{
 }
 
 @media screen and (max-width: 600px){
-  #app, .atropos{
-    width: 280px !important;
-  }
-  .logoppal{
-    width: 180px;
-  }
-  .contenido{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   body{
     background-position: center;
   }
