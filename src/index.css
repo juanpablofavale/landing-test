@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
 
 *{
   margin: 0;
@@ -12,10 +13,19 @@
   background-color: #242424;
 }
 
+p{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+}
+
 .my-atropos {
   padding: 20px;
   width: 400px;
   height: 260px;
+}
+
+.logoppal{
+  width: 90%;
 }
 
 #root{
