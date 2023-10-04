@@ -18,9 +18,9 @@ export default function App () {
         onRotate={(x, y) => console.log('Rotate', x, y)}
       >
         <div data-atropos-offset="5" className="contenido">
-          <img className='logoppal' src="./Nomada Logo1.png" alt="nomada img" />
+          <img className='logoppal' src="./Nomada.png" alt="nomada img" />
           <p>Todo comienza con tus ganas de viajar</p>
-          <h1>Proximamente...</h1>
+          <h1>Próximamente...</h1>
         </div>
         {/* ... */}
       </Atropos>
