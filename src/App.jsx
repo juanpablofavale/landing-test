@@ -26,9 +26,9 @@ export default function App () {
       </Atropos>
       <footer>
         <nav>
-          <p className='face' onClick={() => toast.dark("Proximamente!")}><FaSquareFacebook /></p>
-          <p className='insta' onClick={() => toast.dark("Proximamente!")}><FaSquareInstagram /></p>
-          <p className='twit' onClick={() => toast.dark("Proximamente!")}><FaSquareXTwitter /></p>
+          <p className='face' onClick={() => toast.dark("Próximamente!")}><FaSquareFacebook /></p>
+          <p className='insta' onClick={() => toast.dark("Próximamente!")}><FaSquareInstagram /></p>
+          <p className='twit' onClick={() => toast.dark("Próximamente!")}><FaSquareXTwitter /></p>
         </nav>
       </footer>
     </div>  )
