@@ -1,10 +1,9 @@
 import './App.css'
 import Atropos from 'atropos/react';
-import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
-import {RiTwitterXFill, RiFacebookBoxLine, RiInstagramLine} from "react-icons/ri"
-import { FaSquareXTwitter, FaSquareFacebook, FaSquareInstagram } from "react-icons/fa6";
+import { FaSquareXTwitter, FaSquareFacebook, FaSquareInstagram, FaSquareWhatsapp, FaPhoneVolume, FaSquarePhone } from "react-icons/fa6";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { ImFacebook2, ImMail } from "react-icons/im";
 
 export default function App () {
   return (
@@ -19,16 +18,29 @@ export default function App () {
       >
         <div data-atropos-offset="5" className="contenido">
           <img className='logoppal' src="./Nomada.png" alt="nomada img" />
-          <p>Todo comienza con tus ganas de viajar</p>
+          <p>VIAJES Y TURISMO</p>
+          <p>PV-2022-139123091-APN-DRAV#MTYD</p>
           <h1>Próximamente...</h1>
         </div>
         {/* ... */}
       </Atropos>
       <footer>
         <nav>
-          <p className='face' onClick={() => toast.dark("Próximamente!")}><FaSquareFacebook /></p>
-          <p className='insta' onClick={() => toast.dark("Próximamente!")}><FaSquareInstagram /></p>
-          <p className='twit' onClick={() => toast.dark("Próximamente!")}><FaSquareXTwitter /></p>
+          <a href="https://www.facebook.com/nomadaviajesyturismo/" target='_blank' rel='noopener noreferrer'>
+            <p className='face' onClick={() => toast.dark("Próximamente!")}><ImFacebook2 /></p>
+          </a>
+          <a href="https://www.instagram.com/nomada.evt/" target='_blank' rel='noopener noreferrer'>
+            <p className='insta' onClick={() => toast.dark("Próximamente!")}><FaSquareInstagram /></p>
+          </a>
+          <a href="https://www.facebook.com/nomadaviajesyturismo/" target='_blank' rel='noopener noreferrer'>
+            <p className='twit' onClick={() => toast.dark("Próximamente!")}><FaSquareWhatsapp /></p>
+          </a>
+          <a href="https://www.facebook.com/nomadaviajesyturismo/" target='_blank' rel='noopener noreferrer'>
+            <p className='twit' onClick={() => toast.dark("Próximamente!")}><FaSquarePhone /></p>
+          </a>
+          <a href="https://www.facebook.com/nomadaviajesyturismo/" target='_blank' rel='noopener noreferrer'>
+            <p className='twit' onClick={() => toast.dark("Próximamente!")}><ImMail /></p>
+          </a>
         </nav>
       </footer>
     </div>  )
