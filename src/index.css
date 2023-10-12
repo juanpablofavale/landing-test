@@ -25,27 +25,27 @@ p{
 }
 
 .logoppal{
-  width: 90%;
-}
-
-#root{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  width: 80%;
 }
 
 body{
   background: linear-gradient(#0000008c, #0000008c), url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2670050crop.jpg?w=1900&h=1267');
   background-size: cover;
-  overflow-x: hidden;
   animation: fadeIn 1.5s ease;
+  display: flex;
+  align-items: center;
+  height: 100dvh;
+  min-height: -webkit-fill-available
+}
+
+html{
+  height: -webkit-fill-available;
 }
 
 .legajo{
   font-size: 10px;
   align-self: flex-end;
-  padding-right: 20px;
+  padding-right: 37px;
 }
 
 @keyframes fadeIn{
@@ -164,6 +164,10 @@ footer a{
 @media screen and (max-width: 600px){
   body{
     background-position: center;
+  }
+  .my-atropos{
+    width: 300px;
+    height: 200px;
   }
   footer .face{
     color: #2323ff;
