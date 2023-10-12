@@ -86,6 +86,7 @@ header{
 header li{
   cursor: pointer;
   letter-spacing: 1px;
+  color: white;
 }
 
 header li:hover{
@@ -123,6 +124,11 @@ header ul{
 
 .atropos-inner:hover{
   transform: scale(1.1);
+}
+
+.negrita{
+  font-weight: 800;
+  font-size: 20px;
 }
 
 footer{
@@ -184,7 +190,7 @@ footer .mail:hover{
 
 footer a{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .Toastify__progress-bar{
@@ -192,14 +198,14 @@ footer a{
 }
 
 @media screen and (max-width: 600px){
-  .legajo{
-    padding-right: 30px;
+  .atropos-inner{
+    background-size: cover;
   }
   body{
     background-position: center;
   }
   header li{
-    font-size: 12px;
+    font-size: 14px;
   }
   header{
     justify-content: center;
@@ -215,23 +221,6 @@ footer a{
   }
   .my-atropos{
     width: 300px;
-    height: 200px;
-  }
-  footer .face{
-    color: #2323ff;
-  }
-  
-  footer .insta{
-    color: #e825e8;
-  }
-  
-  footer .whats{
-    color: #5aff41;
-  }
-  footer .phone{
-    color: #ff4d00;
-  }
-  footer .mail{
-    color: #3f0069f6;
+    height: 250px;
   }
 }
