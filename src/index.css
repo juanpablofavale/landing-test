@@ -18,8 +18,16 @@ p{
   font-weight: 600;
 }
 
+#app, #root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
 .my-atropos {
-  padding: 20px;
   width: 400px;
   height: 260px;
 }
@@ -29,7 +37,7 @@ p{
 }
 
 body{
-  background: linear-gradient(#0000008c, #0000008c), url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2670050crop.jpg?w=1900&h=1267');
+  background: linear-gradient(#00000000, #00000000), url('https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic_2670050crop.jpg?w=1900&h=1267');
   background-size: cover;
   animation: fadeIn 1.5s ease;
   display: flex;
@@ -41,6 +49,7 @@ body{
   font-size: 10px;
   align-self: flex-end;
   padding-right: 37px;
+  letter-spacing: .4px;
 }
 
 @keyframes fadeIn{
@@ -78,16 +87,15 @@ header{
   font-weight: 600;
   display: flex;
   justify-content: end;
+  background: linear-gradient(#00000070, #0000001c);
 }
 
 header li{
   cursor: pointer;
-  color: white;
-  transition: all .3s;
 }
 
 header li:hover{
-  color: #ff4d00 ;
+  text-decoration: underline wavy #ff4d00;
 }
 
 header ul{
@@ -114,15 +122,12 @@ header ul{
 }
 
 .atropos-inner{
-  box-shadow: 0 0 100px black, 0 0 100px black;
   background: url("../fondo2.png");
   background-size: 100%;
   transition: .5s;
 }
 
 .atropos-inner:hover{
-  box-shadow: 0px 0px 70px #000000be, 0px 0px 70px #000000be, 0px 0px 70px #000000be, 0px 0px 70px #000000be, 0px 0px 70px #000000be;
-  background-color: #060054d9;
   transform: scale(1.1);
 }
 
@@ -136,14 +141,12 @@ footer{
   align-items: center;
   left: 0;
   padding: 10px;
-  gap: 15px;
+  background: linear-gradient(#0000001c, #00000070);
 }
 
 footer nav p{
   font-size: 50px;
   text-decoration: none;
-  color: white;
-  cursor: pointer;
 }
 
 footer nav{
@@ -152,7 +155,12 @@ footer nav{
 }
 
 footer p{
-  transition: .4s;
+  transition: .25s;
+}
+
+.denuncia{
+  color: white;
+  letter-spacing: .7px;
 }
 
 footer .face:hover{
@@ -172,12 +180,12 @@ footer .phone:hover{
 }
 
 footer .mail:hover{
-  color: black;
+  color: #3f0069f6;
 }
 
 footer a{
   text-decoration: none;
-  color: white;
+  color: black;
   font-size: 12px;
 }
 
@@ -186,6 +194,9 @@ footer a{
 }
 
 @media screen and (max-width: 600px){
+  .legajo{
+    padding-right: 30px;
+  }
   body{
     background-position: center;
   }
@@ -223,6 +234,6 @@ footer a{
     color: #ff4d00;
   }
   footer .mail{
-    color: black;
+    color: #3f0069f6;
   }
 }

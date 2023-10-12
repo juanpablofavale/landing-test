@@ -15,20 +15,20 @@ export default function App () {
           </ul>
         </nav>
       </header>
-      <Atropos
-        className='my-atropos'
-        activeOffset={50}
-        shadow={false}
-        onRotate={(x, y) => console.log('Rotate', x, y)}
-      >
-        <div className="contenido">
-          <img data-atropos-offset="10" className='logoppal' src="./Nomada.png" alt="nomada img" />
-          <p data-atropos-offset="5" className='legajo'>PV-2022-139123091-APN-DRAV#MTYD</p>
-          <p data-atropos-offset="15">VIAJES Y TURISMO</p>
-          <h1 data-atropos-offset="7">Próximamente...</h1>
-        </div>
-        {/* ... */}
-      </Atropos>
+        <Atropos
+          className='my-atropos'
+          activeOffset={50}
+          shadow={false}
+          onRotate={(x, y) => console.log('Rotate', x, y)}
+        >
+          <div className="contenido">
+            <img data-atropos-offset="10" className='logoppal' src="./Nomada.png" alt="nomada img" />
+            <p data-atropos-offset="5" className='legajo'>PV-2022-139123091-APN-DRAV#MTYD</p>
+            <p data-atropos-offset="15">VIAJES Y TURISMO</p>
+            <h1 data-atropos-offset="7">Próximamente...</h1>
+          </div>
+          {/* ... */}
+        </Atropos>
       <footer>
         <nav>
           <a href="https://www.facebook.com/nomadaviajesyturismo/" target='_blank' rel='noopener noreferrer'>
@@ -57,7 +57,7 @@ export default function App () {
             </p>
           </a>
         </nav>
-        <a target='_blank' rel='noopener noreferrer' href="https://tramitesadistancia.gob.ar/tramitesadistancia/detalle-tipo?id=624">📄Denuncia contra una agencia</a>
+        <a className='denuncia' target='_blank' rel='noopener noreferrer' href="https://tramitesadistancia.gob.ar/tramitesadistancia/detalle-tipo?id=624">📄Denuncia contra una agencia</a>
       </footer>
     </div>  )
 }
