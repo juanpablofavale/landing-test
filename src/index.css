@@ -45,13 +45,6 @@ body{
   height: 100dvh;
 }
 
-.legajo{
-  font-size: 10px;
-  align-self: flex-end;
-  padding-right: 37px;
-  letter-spacing: .4px;
-}
-
 @keyframes fadeIn{
   0%{
     opacity: 0;
@@ -92,6 +85,7 @@ header{
 
 header li{
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 header li:hover{
@@ -141,7 +135,7 @@ footer{
   align-items: center;
   left: 0;
   padding: 10px;
-  background: linear-gradient(#0000001c, #00000070);
+  background: linear-gradient(#00000031, #000000a2);
 }
 
 footer nav p{
@@ -156,6 +150,11 @@ footer nav{
 
 footer p{
   transition: .25s;
+}
+
+.contacto{
+  color: white;
+  letter-spacing: 1px;
 }
 
 .denuncia{
@@ -186,7 +185,6 @@ footer .mail:hover{
 footer a{
   text-decoration: none;
   color: black;
-  font-size: 12px;
 }
 
 .Toastify__progress-bar{
