@@ -35,11 +35,6 @@ body{
   display: flex;
   align-items: center;
   height: 100dvh;
-  min-height: -webkit-fill-available
-}
-
-html{
-  height: -webkit-fill-available;
 }
 
 .legajo{
@@ -73,6 +68,34 @@ html{
   }
 }
 
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: end;
+}
+
+header li{
+  cursor: pointer;
+  color: white;
+  transition: all .3s;
+}
+
+header li:hover{
+  color: #ff4d00 ;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
 .contenido{
   display: flex;
   flex-direction: column;
@@ -81,6 +104,7 @@ html{
   height: 100%;
   transition-duration: 300ms;
   transform: translate3d(0px, 0px, 0px);
+  border: 5px ridge #e04d0d;
 }
 
 .contenido h1{
@@ -164,6 +188,21 @@ footer a{
 @media screen and (max-width: 600px){
   body{
     background-position: center;
+  }
+  header li{
+    font-size: 12px;
+  }
+  header{
+    justify-content: center;
+  }
+  footer nav p{
+    font-size: 35px;
+  }
+  footer nav{
+    gap: 25px;
+  }
+  header ul{
+    gap: 12px;
   }
   .my-atropos{
     width: 300px;

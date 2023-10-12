@@ -6,6 +6,15 @@ import { BiLogoFacebook, BiLogoFacebookCircle, BiLogoInstagram, BiLogoWhatsapp, 
 export default function App () {
   return (
     <div id="app">
+      <header>
+        <nav>
+          <ul>
+            <li>Regionales</li>
+            <li>Nacionales</li>
+            <li>Internacionales</li>
+          </ul>
+        </nav>
+      </header>
       <Atropos
         className='my-atropos'
         activeOffset={50}
