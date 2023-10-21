@@ -60,10 +60,8 @@ export default function App () {
             </p>
           </a>
         </nav>
-        <p className='contacto'>CONTACTO: nomada.evt@gmail.com // (+54) 9 291-644 2676 </p>
-        <p className='contacto'>Bahía Blanca - Buenos Aires - Argentina</p>
+        <p className='contacto'>CONTACTO: nomada.evt@gmail.com // (+54) 9 291-644 2676 - Bahía Blanca - Buenos Aires - Argentina</p>
         <p className='contacto'>Disposición habilitante del Ministerio de Turismo y Deporte: <a href="./PV-2022.pdf" download="PermisoPrecario" class="permiso">Permiso Precario Nómada Viajes y Turismo</a></p>
-        <br />
         <a className='denuncia' target='_blank' rel='noopener noreferrer' href="https://tramitesadistancia.gob.ar/tramitesadistancia/detalle-tipo?id=624">📄Denuncia contra una agencia</a>
       </footer>
     </div>  
