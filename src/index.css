@@ -28,12 +28,20 @@ p{
 }
 
 .my-atropos {
-  width: 400px;
-  height: 260px;
+  width: 500px;
+  height: 300px;
 }
 
 .logoppal{
   width: 80%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.permiso{
+  color: #60b6b5;
 }
 
 body{
@@ -198,6 +206,10 @@ footer a{
 }
 
 @media screen and (max-width: 600px){
+  #app{
+    align-items: flex-start;
+    margin-top: 150px;
+  }
   .atropos-inner{
     background-size: cover;
   }
@@ -220,7 +232,7 @@ footer a{
     gap: 12px;
   }
   .my-atropos{
-    width: 300px;
-    height: 250px;
+    width: 310px;
+    height: 270px;
   }
 }

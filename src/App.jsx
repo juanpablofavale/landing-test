@@ -24,10 +24,11 @@ export default function App () {
           <div className="contenido">
             <img data-atropos-offset="10" className='logoppal' src="./Nomada.png" alt="nomada img" />
             <p className='negrita' data-atropos-offset="15">VIAJES Y TURISMO</p>
-            <br />
-            <p data-atropos-offset="6">Permiso Precario:</p>
-            <p data-atropos-offset="5" className='legajo'>PV-2022-139123091-APN-DRAV#MTYD</p>
-            <h1 data-atropos-offset="8">Próximamente...</h1>
+            <p data-atropos-offset="10">De</p>
+            <p data-atropos-offset="9">Alfonsina Milagros Torrecilla</p>
+            <p data-atropos-offset="4">Cuit: 27-31143723-8</p>
+            <p data-atropos-offset="6">PV-2022-139123091-APN-DRAV#MTYD</p>
+            <h1 data-atropos-offset="7">Próximamente...</h1>
           </div>
           {/* ... */}
         </Atropos>
@@ -60,6 +61,8 @@ export default function App () {
           </a>
         </nav>
         <p className='contacto'>CONTACTO: nomada.evt@gmail.com // (+54) 9 291-644 2676 </p>
+        <p className='contacto'>Bahía Blanca - Buenos Aires - Argentina</p>
+        <p className='contacto'>Disposición habilitante del Ministerio de Turismo y Deporte: <a href="./PV-2022.pdf" download="PermisoPrecario" class="permiso">Permiso Precario Nómada Viajes y Turismo</a></p>
         <br />
         <a className='denuncia' target='_blank' rel='noopener noreferrer' href="https://tramitesadistancia.gob.ar/tramitesadistancia/detalle-tipo?id=624">📄Denuncia contra una agencia</a>
       </footer>
